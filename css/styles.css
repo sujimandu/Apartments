@@ -1,0 +1,189 @@
+    body{
+    background-image:url("../image/background.jpg");
+    background-attachment: fixed;
+    
+      }
+      .ongoing-casa-logo {
+    float: left;
+    width: 272px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-image: url(../image/logo.png);
+    margin-top: 6px;
+  }
+
+  .navbar
+   {
+      background:white;
+   }
+   
+   .navbar ,li{
+      color:black;
+      padding-top: 20px;
+         }
+         .navbar a{
+          text-align: center;
+         }
+   /*.navbar ,a{
+
+      padding: 7px;
+     
+     }*/
+   /*header section*/
+    header{
+   font-size: 25px;
+   text-align: center;
+     }
+    
+    /*carousal section*/
+   #myCarousel {
+   margin-top: 40px; 
+   margin-bottom: 10px;
+  
+   }
+   #myCarousel .item { 
+      background-size: 100% 200px;
+      height: 600px;
+     
+   }
+
+    
+   /*jumbotron section*/
+   #myjumbotron{
+      margin-top: 50px;
+   }
+   #myjumbotron h1{
+   text-shadow: 2px 2px #FF0000;
+   }
+  #myjumbotron .container{
+   margin-top: 10px;
+  }
+  /*Fixed background*/
+  #some {
+    width: 100%;
+    background-attachment:fixed;
+    height:100%;
+    background-image:url("../image/3.png");
+    background-repeat:no-repeat;
+    filter: brightness(50%);
+    height: 500px;
+  }
+  #some1 {
+    width: 100%;
+    background-attachment:fixed;
+    height:100%;
+    height: 500px;
+    background-image:url("../image/3.png");
+    background-repeat:no-repeat;
+    filter: brightness(50%);
+  }
+  #colm-row img{
+    padding-top: 20px;
+    border-radius:30%;
+    width: 100%;
+
+  }
+  
+  #slide1 img{
+    height: 600px;
+    
+  }
+  #slide2 img{
+    height: 600px;
+    
+  }
+  #slide3 img{
+    height: 600px;
+    
+  }
+  
+/*video section*/
+  
+  #video-section iframe{
+    background-color:skyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-clip: padding-box;
+    border-radius: 50%;
+    width: 100%;
+  }
+  .container h2{
+    text-align: center;
+    font-family:
+
+  }
+  .container iframe{
+    width: 100%;
+  }
+  
+
+  /*Footer section*/
+ footer
+   {
+      background:white;
+      color:white;
+      font-size: 11px;
+      padding: 20px;
+   }
+  
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+    #slide1 {
+      background: url('../image/21.png') top center no-repeat height;
+
+   }
+
+   #slide2 {
+      background: url('../image/slide22.png') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../image/1.png') top center no-repeat;
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+ #slide1 {
+   background: url('../image/21.png') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../image/slide22.png') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../image/1.png') top center no-repeat;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+ #slide1 {
+   background: url('../image/21.png') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../image/slide22.png') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../image/1.png') top center no-repeat;
+}
+
+}
+#Signup{
+  margin-top: 100px;
+ background-image: url("../image/p2.png"); 
+}
+#Signup p{
+  text-align: center;
+}
+#feed img{
+  width: 100%;
+}
+
+
